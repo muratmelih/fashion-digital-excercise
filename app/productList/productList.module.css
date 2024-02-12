@@ -1,10 +1,30 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width:100%;
-    flex-wrap: wrap;
-    margin-top:50px;
-    gap:30px
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 30px;
+}
 
+.filterContainer {
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 650px) {
+  .filterContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .filterContainer > div {
+    width: 100% !important;
+    margin-top: 15px;
+    margin-left:0 !important;
+  }
+  .filterContainer > button {
+    margin-top: 15px;
+  }
+}
