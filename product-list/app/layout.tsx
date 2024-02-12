@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Nav } from "./components/Nav";
+import { PrimeReactProvider, PrimeReactContext } from "primereact/api";
+import "primereact/resources/themes/lara-light-cyan/theme.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,8 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav></Nav>
-        {children}
+        <PrimeReactProvider>
+          <Nav></Nav>
+          {children}
+        </PrimeReactProvider>
       </body>
     </html>
   );
