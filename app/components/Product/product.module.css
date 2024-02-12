@@ -1,0 +1,46 @@
+.productCard {
+  text-decoration: none;
+}
+.productCard > div {
+  height: 480px;
+}
+.productCard img {
+  object-fit: contain;
+  height: 250px;
+  width: 250px;
+}
+.productTitle {
+  max-width: 250px;
+}
+.productBrand,
+.price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.productSizeContainer {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.productSizeWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+  max-width: 250px;
+  max-height: 50px;
+  font-size: 12px;
+}
+
+.productSize {
+  color: #fff;
+  background-color: #64748b;
+  text-align: center;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+.priceOld{
+    font-size:12px;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
