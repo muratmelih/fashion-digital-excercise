@@ -13,7 +13,8 @@ App has an api folder which returns data to client side and handles api requests
 App has 2 pages, one is Product List ,and another is Statistics.
 
 On Product List page, you can see size filter, sort by price and list of products as seen on screenshot below,
-![image](https://github.com/muratmelih/fashion-digital-excercise/assets/8982629/ee4826dd-9d39-4303-90f3-7541f0e147db)
+![image](https://github.com/muratmelih/fashion-digital-excercise/assets/8982629/09c5cad4-8d22-4364-a1e2-70387ae71dc5)
+
 
 Tired to divide each part as components to keep single responsibility principle.
 
