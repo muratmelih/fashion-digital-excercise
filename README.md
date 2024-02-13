@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Next.js project with Typescript to show product list and statistics, mostly used server side components. State management like Redux is not used for a small app like this to prevent bundle size and build time increase.
+Used PrimeReact, ChartJS componentes for a better visuals.
+Used Jest for unit testing.
+Tried to make the app responsive as you desired.
+App has an api folder which returns data to client side and handles api requests.
+App has 2 pages, one is Product List ,and another is Statistics.
+
+On Product List page, you can see size filter, sort by price and list of products as seen on screenshot below,
+![image](https://github.com/muratmelih/fashion-digital-excercise/assets/8982629/ee4826dd-9d39-4303-90f3-7541f0e147db)
+
+Tired to divide each part as components to keep single responsibility principle.
+
+On statistics page, you can see the 3 different statistics as a chart, used chart to provide better visuals and better data understanding
+![image](https://github.com/muratmelih/fashion-digital-excercise/assets/8982629/3d43e283-6b8b-45df-8094-729d6c655ca5)
+
+Tried to make responsiveness without a ui framework or library, just pure css.
+![image](https://github.com/muratmelih/fashion-digital-excercise/assets/8982629/af5f9986-3fe5-493d-8e06-fa4e923e2075)
+
+Added unit tests to the project, there are 2 unit tests that check the components render correctly.
+You can run  the tests with the command 
+```bash
+npm run test
+```
 
 ## Getting Started
 
@@ -15,22 +37,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
