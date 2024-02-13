@@ -13,8 +13,11 @@ Tired to divide each part as components to keep single responsibility principle.
 On statistics page, you can see the 3 different statistics as a chart, used chart to provide better visuals and better data understanding
 ![image](https://github.com/muratmelih/fashion-digital-excercise/assets/8982629/3d43e283-6b8b-45df-8094-729d6c655ca5)
 
+
 Tried to make responsiveness without a ui framework or library, just pure css.
+
 ![image](https://github.com/muratmelih/fashion-digital-excercise/assets/8982629/af5f9986-3fe5-493d-8e06-fa4e923e2075)
+
 
 Added unit tests to the project, there are 2 unit tests that check the components render correctly.
 You can run  the tests with the command 
