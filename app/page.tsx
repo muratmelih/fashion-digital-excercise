@@ -1,9 +1,11 @@
-import styles from "./page.module.css";
+'use client'
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
+  router.push('/productList')
   return (
-    <main className={styles.main}>
-      <h1>Products</h1>
+    <main>
     </main>
   );
 }
