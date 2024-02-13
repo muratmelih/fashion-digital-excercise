@@ -6,8 +6,6 @@ Used PrimeReact, ChartJS componentes for a better visuals.
 
 Used Jest for unit testing.
 
-Tried to make the app responsive as you desired.
-
 App has an api folder which returns data to client side and handles api requests.
 
 App has 2 pages, one is Product List ,and another is Statistics.
