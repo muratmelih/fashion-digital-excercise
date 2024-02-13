@@ -16,7 +16,7 @@ On Product List page, you can see size filter, sort by price and list of product
 
 Tired to divide each part as components to keep single responsibility principle.
 
-On statistics page, you can see the 3 different statistics as a chart, used chart to provide better visuals and better data understanding
+On statistics page, you can see the 3 different statistics as a chart, used chart to provide better visuals and better data understanding, all data calculation is made on the api side,
 ![image](https://github.com/muratmelih/fashion-digital-excercise/assets/8982629/3d43e283-6b8b-45df-8094-729d6c655ca5)
 
 
