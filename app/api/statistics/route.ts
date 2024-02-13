@@ -40,7 +40,6 @@ export async function GET(req: Request, res: Response) {
     let sizes32 = data.filter(
       (prod: ProductType) => prod.brand == a && prod.sizes.includes("32")
     );
-    console.log("sisizes32", sizes32);
     let priceSum: number = 0;
     let avg: number = 0;
     sizes32.map((prod: ProductType) => {
